@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff8f0;
+  color: #063b3e;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #4a5977;
+  padding: 20px 0;
+  border-bottom: 1px solid #4a5977;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #7c7b7b;
+}
+
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffeede;
+}
+
+.imagem-reabilitacao {
+  position: absolute;   /* Posiciona livremente na tela */
+  top: 100px;            /* Distância do topo */
+  right: 20px;          /* Distância da direita */
+  width: auto;
+  height: auto;
+  z-index: 10
+
+}
+
+.imagem-reabilitacao img {
+  width: 200px;        /* ou menor se quiser */
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+.text-side {
+  flex: 1;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 300px;
+}
+
+.text-side h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #004e4c;
+}
+
+.text-side p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 1.1em;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #004e4c;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #007a77;
+}
+
+.galeria-reabilitacao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 10px;
+  background-color: #fff8f0; /* opcional */
+}
+
+.galeria-reabilitacao img {
+  width: 280px;       /* ideal para antes/depois lado a lado */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  object-fit: contain;
+}
+
+  
